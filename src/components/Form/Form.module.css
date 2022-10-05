@@ -1,0 +1,51 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #2a363b;
+  border-radius: 5px;
+}
+.Form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.Form input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #2a363b;
+  border-radius: 5px;
+}
+.Form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #2a363b;
+  border-radius: 5px;
+}
+.Form select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #2a363b;
+  border-radius: 5px;
+}
+.Form option {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #2a363b;
+  border-radius: 5px;
+}
+.Form button {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #2a363b;
+  border-radius: 5px;
+  background-color: #2a363b;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
